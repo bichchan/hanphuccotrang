@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: initial;
+    padding: 0px;
+ }
+
+/* Header/ Blog Title */
+.header {
+    padding: 10px;
+    text-align: center;
+    background: rgb(156, 231, 221);
+    color: rgb(3, 80, 21);
+}
+
+.header h1 {
+    font-size: 40px;
+    }
+    h2{
+        text-align: center;
+        color: rgb(228, 194, 0);
+    }
+    
+    h3{
+        text-align: center;
+        color: rgb(136, 1, 1);
+    }
+    
+    .header p {
+        font-size: 20px;
+    }
+    
+    .topnav {
+        overflow: hidden;
+        background-color: rgb(249, 249, 253) ;
+    }
+    
+    .topnav a {
+        float: left;
+        display: block;
+        color: rgb(73, 44, 5);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    /* Thay đổi màu liên kết khi di chuột qua */
+    .topnav a:hover {
+        background-color: rgb(156, 231, 221);
+        color: rgb(223, 140, 195);
+    }
+    
+    .menu a:visited {
+        color: whitesmoke;
+        transition: all 0.5 linear;
+    }
+    
+    .menu a:hover{
+        color: royalblue;
+    }
+    
+    img:hover{
+        transform: scale(1);
+         opacity: 1;
+        transition: all 0.5s;
+         padding: 5px;
+         background: cornflowerblue;
+     }
+    img{
+        opacity: 0.5;
+        align-items: center;
+    }
+td h1:hover{
+    overflow: initial;
+    color: hotpink;
+    transform: scale(1.1);
+    transition: all 0.5s;
+    font-style: oblique;
+}
+td p{
+    color: black;
+}
+    
+ td p:hover{
+     overflow: initial;
+     color: rgb(55, 87, 3);
+     transform: scale(1.1);
+     font-weight: 200;
+ }
+ table{
+     text-align: center;
+ }
+ 
+ .footer {
+    padding: 10px;
+    text-align: center;
+    background: cornsilk;
+    margin-top: 10px;
+}
+
+
+
+
+footer{
+    
+    background:rgb(156, 231, 221);
+    color:rgb(83, 3, 3)
+}
+footer .footer-item{
+   text-align: center;
+    display:inline-block;
+    margin-bottom: 2px;
+    width: 30%;
+    margin-top: 5px;
+    font-size: 15px;
+}
+footer .footer-item h3{
+      margin: 30px 0;
+}
+
+footer.link a{
+    display: block;
+    text-align: center;
+    margin: 3px 0;  
+}
+
+footer .footer-item:hover{
+    color: rgb(235, 125, 0);
+    font-weight: bold;
+    transition: all 0.3s linear;
+}
+.tacgia{
+    background:wheat;
+    color: rgb(77, 1, 1);
+    text-align: center;
+    padding: 10px;
+}
+.tacgia{
+    padding-top: 10px;
+}

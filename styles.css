@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   font-family: initial;
+    padding: 0px;
+ }
+
+/* Header/ Blog Title */
+.header {
+    padding: 10px;
+    text-align: center;
+    background: rgb(156, 231, 221);
+    color: rgb(3, 80, 21);
+}
+
+.header h1 {
+    font-size: 40px;
+}
+h2{
+    text-align: center;
+    color: rgb(60, 167, 158);
+}
+
+h3{
+    text-align: center;
+    color: rgb(136, 1, 1);
+}
+
+.header p {
+    font-size: 20px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(249, 249, 253) ;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: rgb(73, 44, 5);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Thay đổi màu liên kết khi di chuột qua */
+.topnav a:hover {
+    background-color: rgb(156, 231, 221);
+    color:  rgb(223, 140, 195);
+    float: right;
+    
+}
+
+.menu a:visited {
+    color: whitesmoke;
+    transition: all 0.5 linear;
+}
+
+.menu a:hover{
+    color: royalblue;
+}
+
+/* Cột trái */
+.leftcolum {
+    float: left;
+    width: 75%;
+}
+
+/* Cột phải */
+.rightcolum {
+    float: right;
+    width: 25%;
+    background-color: rgb(0, 45, 87);
+    padding: 20px;
+}
+/* Hình ảnh bài viết */
+.images {
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    margin: 20px;
+
+   
+}
+
+/* Định dạng thẻ cho bài viết */
+.card-news {
+    width: 30%;
+    background-color: white;
+    padding: 10px;
+    margin: 3px;
+    float: left;
+}
+
+/*  hình ảnh h ung */
+.card-news:hover{
+    transform: scale(1.1);
+    background: rgb(206, 162, 162);
+    display: block;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.footer {
+    padding: 10px;
+    text-align: center;
+    background: cornsilk;
+    margin-top: 10px;
+}
+
+
+
+
+footer{
+    
+    background:rgb(156, 231, 221);
+    color:rgb(136, 24, 24);
+}
+footer .footer-item{
+   text-align: center;
+    display:inline-block;
+    margin-bottom: 2px;
+    width: 30%;
+    margin-top: 5px;
+    font-size: 15px;
+}
+footer .footer-item h3{
+      margin: 30px 0;
+}
+
+footer.link a{
+    display: block;
+    text-align: center;
+    margin: 2px 0;  
+}
+
+footer .footer-item:hover{
+    color: rgb(235, 125, 0);
+    font-weight: bold;
+    transition: all 0.3s linear;
+}
+footer .footer-item:hover img{
+    box-shadow:rgb(0, 0, 0) 0px 5px 8px;
+    transition:all 0.3 linear
+}
+
+.tacgia{
+    background:wheat;
+    color: rgb(83, 3, 3);
+    text-align: center;
+    padding: 10px;
+}
+.tacgia{
+    padding-top: 5px;
+}
